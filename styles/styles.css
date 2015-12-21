@@ -1,0 +1,102 @@
+body {
+  /*Typography Declarations*/
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+a {text-decoration: none;}
+
+h1{ text-shadow: 1px 1px 1px #000;}
+
+h2 {
+  color:#D7A22A;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.content-footer {
+  margin-top: 5em;
+  padding: 4em 0;
+  background-color: #006778;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('https://images.unsplash.com/photo-1443827423664-eac70d49dd0d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=aca070f52c6e1e056b9588b16aeee799');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #D7A22A;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic",   Georgia, serif;
+  font-size: 2em;
+  color: white;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #D7A22A;
+  text-shadow: 0px 3px 0px #FFF1C2;
+}
+
+.content {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+
+a:visited {
+  color: #D7A22A;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+.social > li > a {
+  color: #D7A22A;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+
+.content > p,
+.content-footer > p {
+  /*typography declarations*/
+  font-weight: 300;
+  letter-spacing: 0.05em
+}
+
+.questions-section > h2 {
+  /*typography declarations*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /*Layout*/
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
