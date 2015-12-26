@@ -1,148 +1,151 @@
-body {
-  /*Typography Declarations*/
-  color: #222222;
-  font-size: 1em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 0;
-}
-a {text-decoration: none;}
+.top-nav {
+  height: 6.5rem;
+  text-align: right;
 
-
-h1{ text-shadow: 1px 1px 1px #000;}
-
-h2 {
-  color:#D7A22A;
 }
 
-.content-footer,
-.masthead-heading,
-.masthead-intro {
+
+.logo {
+  float: left;
+  padding: 1rem 0;
   text-align: center;
+  width: 30%;
+
 }
 
-.content-footer {
-  margin-top: 5em;
-  padding: 4em 0;
-  background-color: #006778;
+.logo img {
+    height: 25%;
+    width: 25%;
 }
+
+.top-nav ul {
+  margin:0;
+  width: 60%;
+  list-style: none;
+  padding:1.5em 2rem 0 0;
+  float:right;
+  /*background-color: #660000;*/
+}
+
+  .top-nav ul li a {
+  display: inline-block;
+  margin-right: 2em;
+  float: right;
+  text-align: right;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #003333;
+
+}
+
+.top-nav li {
+  display: inline-block;
+}
+
+
+.logo img {
+  border-radius: 50%;
+}
+
 
 .masthead {
-  padding: 6em 0;
-  background-image: url('https://images.unsplash.com/photo-1443827423664-eac70d49dd0d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=aca070f52c6e1e056b9588b16aeee799');
+  background-image: url('../images/web-dev.jpg');
+  background-position: 0 bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: solid 1em #D7A22A;
-}
-
-.masthead-intro {
-  margin-bottom: 0.1em;
-  font-family: "Gentium Book Basic",   Georgia, serif;
-  font-size: 2em;
+  height: 25rem;
   color: white;
 }
 
-.masthead-heading {
-  margin-top: -0.2em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  font-size: 6em;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #D7A22A;
-  text-shadow: 0px 3px 0px #FFF1C2;
+.masthead > div {
+  text-align: center;
+  padding: 6em 0;
+  font-size: x-large;
+  letter-spacing: 1px;
+
 }
 
-.content {
-  max-width: 38em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
+.introduction {
+  color: black;
+  padding-left: 2rem;
+  /*text-align: center;*/
+  width: 80%;
+
 }
 
-.content-footer > p {
-  color: white;
+.projects h2 {
+  color: black;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
 
-
-a:visited {
-  color: #D7A22A;
+.projects img {
+  max-width:100%;
+  max-height:100%;
 }
 
-a:hover {
-  color: #FFF;
-}
-
-.social > li > a {
-  color: #D7A22A;
-}
-
-.social > li {
+.footer-content li {
   display: inline-block;
-  margin-right: 1em;
+  text-align: center;
+
 }
 
+.footer ul li a {
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: black;
 
-.content > p,
-.content-footer > p {
-  /*typography declarations*/
-  font-weight: 300;
-  letter-spacing: 0.05em
 }
 
-.questions-section > h2 {
-  /*typography declarations*/
-  font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 1.2em;
-  font-weight: bold;
-  /*Layout*/
-  margin: 2em 0 1em 0;
+.footer-content {
+  text-align: center;
+  padding-top: 2rem;
 }
 
-section > h1 {
-  margin-top: 2em;
+ul li a:hover {
+ color: grey;
 }
 
-@media only screen and (max-width: 500px) {
-    .masthead {
-      padding: 3em 0;
-    }
+    @media only screen and (max-width: 450px) {
+        .top-nav ul li a {
 
-    .masthead-heading {
-        font-size: 3em;
-    }
-
-    .introduction-section {
-      padding: .25rem 3rem .25rem 3rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem
-
+            font-size: .95em;
+          }
+        .top-nav ul{
+          padding-right: 5%;
+        }
+        .logo img{
+          width: 50%;
+          height: 50%;
+        }
 
     }
 
-    .location-section {
-      padding: .25rem 3rem .25rem 3rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem
 
 
-    }
-    .questions-section {
-      padding: .25rem 3rem .25rem 3rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem
-    }
 
-    .content-footer {
-      padding: .25rem 3rem .25rem 3rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem
-    }
+    @media only screen and (max-width: 700px) {
+        .footer ul li a {
 
-    .social {
-      padding: .25rem 3rem .25rem 3rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem
-    }
+            font-size: 12px;
 
+          }
+
+        .logo img{
+          width: 40%;
+          height: 40%;
+        }
+
+
+      }
+
+
+
+
+
+
+body{
+  font-family: 'Roboto', sans-serif;
 
 }
